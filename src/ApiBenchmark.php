@@ -57,7 +57,7 @@ class ApiBenchmark
             Promise\settle($promises)->wait();
             $endRound = microtime(true);
 
-            echo "Round $i completed in " . ($endRound - $startRound) . " seconds.\n";
+            echo "Round " . ($i + 1) . " completed in " . ($endRound - $startRound) . " seconds.\n";
         }
     }
 
