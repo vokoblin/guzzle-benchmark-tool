@@ -1,0 +1,21 @@
+{
+    "name": "guzzle-benchmark-toolvokoblin/guzzle-benchmark-tool",
+    "description": "Guzzle benchmark tool",
+    "type": "project",
+    "require": {
+        "guzzlehttp/guzzle": "^7.8",
+        "guzzlehttp/promises": "^1.5.3"
+    },
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "GuzzleBenchmarkTool\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Volodymyr Sergeyev",
+            "email": "volodymyr.sergeyev@gmail.com"
+        }
+    ]
+}

@@ -1,0 +1,8 @@
+# PHP/Composer
+/vendor/
+
+# Dump files
+responses.log
+
+# IDE(s):
+.idea
